@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Nike. Just Do It.</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="icon" type="image/x-icon" href="/images/nike-favicon.jpeg" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+    </head>
+    <body>
+        <!-- Alert Box -->
+        <div id="boxContainer">
+            <div id="box">
+                <h4 class="error">This page is not available yet.</h4>
+                <h1>This Website Only Includes <br />4 Pages</h1>
+                <p>Click below buttons to access those pages</p>
+                <br />
+                <a href="index.html"
+                    ><button type="button" class="btn-2">1. Home</button></a
+                >
+                <a href="login.html"
+                    ><button type="button" class="btn-2">2. Login</button></a
+                >
+                <a href="sign-up.html"
+                    ><button type="button" class="btn-2">3. Sign Up</button></a
+                >
+                <a href="privacy.html"
+                    ><button type="button" class="btn-2">4. Privacy</button></a
+                >
+                <br /><br />
+                <button id="closeBoxBtn">Close</button>
+            </div>
+        </div>
+
+        <div id="content">
+            <!-- Navbar -->
+            <div id="navbar-1" class="margin">
+                <div id="navbar-logo">
+                    <a href="index.html"
+                        ><img
+                            src="images/nike-logo.png"
+                            alt="nike-logo"
+                            class="logo"
+                    /></a>
+                </div>
+                <div id="navbar-links">
+                    <a href="">New & Featured</a>
+                    <a href="">Men</a>
+                    <a href="">Women</a>
+                    <a href="">Kids</a>
+                </div>
+                <div id="search-links">
+                    <input type="text" id="search" placeholder="Search" />
+                    <img src="images/heart.png" class="logo-2" />
+                    <img src="images/shopping-bag.png" class="logo-2" />
+                    <button type="button" class="btn">Sign In</button>
+                </div>
+            </div>
+
+            <!-- Announcement Bar -->
+            <div id="navbar-2" class="margin">
+                <h4>Hello Nike App</h4>
+                <h6>
+                    Download the app to access everything Nike.
+                    <a
+                        href="https://play.google.com/store/apps/details?id=com.nike.omega&hl=en&gl=US&pli=1"
+                        >Get Your Great</a
+                    >
+                </h6>
+            </div>
+
+            <!-- First Section -->
+            <div id="intro">
+                <div>
+                    <div id="head-one">
+                        <h5>Just In</h5>
+                        <h1 class="headfont">Nike Air Max Plus</h1>
+                        <h5 clasa="head-des">
+                            Inspired by the energy of London’s music scene comes
+                            the Air Max Pulse. A tough silhouette infused with
+                            an unreal sensation of Air.
+                        </h5>
+                        <a><button type="button" class="btn">Shop</button></a>
+                        <video class="main-video" autoplay loop muted>
+                            <source
+                                src="images/nike-video.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Cards -->
+            <div class="products">
+                <p class="regular-text">Up to 40% Off</p>
+                <table>
+                    <td>
+                        <div class="product">
+                            <div class="product-img">
+                                <img
+                                    class="product-img"
+                                    src="images/shoe-1.webp"
+                                />
+                            </div>
+                            <div class="name-price">
+                                <p>Nike Air Max Pre-Day SE</p>
+                                <p>Rs.38,000</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="product">
+                            <div class="product-img">
+                                <img
+                                    class="product-img"
+                                    src="images/shoe-5.webp"
+                                />
+                            </div>
+                            <div class="name-price">
+                                <p>Nike Air Max Pre-Day SE</p>
+                                <p>Rs.40,000</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="product">
+                            <div class="product-img">
+                                <img
+                                    class="product-img"
+                                    src="images/shoe-3.webp"
+                                />
+                            </div>
+                            <div class="name-price">
+                                <p>Nike Air Max Pre-Day SE</p>
+                                <p>Rs.38,000</p>
+                            </div>
+                        </div>
+                    </td>
+                </table>
+            </div>
+
+            <!-- Second Section -->
+            <div id="head-two">
+                <p class="regular-text">New Arrivals</p>
+                <div id="head-two-middle">
+                    <img class="main-photo" src="images/women-img.webp" />
+                    <h1 class="headfont">Legacy Forever</h1>
+                    <h5 class="head-des">
+                        The moment we’ve been waiting for is finally here. Rep
+                        the reigning world champs in the<br />2023 United States
+                        National Soccer Team Kit as they continue to build upon
+                        their<br />incredible legacy. Hurry, only available
+                        until 4/12.
+                    </h5>
+                    <a><button type="button" class="btn">Shop</button></a>
+                </div>
+            </div>
+
+            <!-- Product category -->
+            <div class="products">
+                <p class="regular-text">The Essentials</p>
+                <table>
+                    <td>
+                        <div class="category">
+                            <img
+                                class="product-img"
+                                src="images/men-img.webp"
+                            />
+                            <button class="btn">Men's</button>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="category">
+                            <img
+                                class="product-img"
+                                src="images/wom-img.webp"
+                            />
+                            <button class="btn">Women's</button>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="category">
+                            <img
+                                class="product-img"
+                                src="images/kid-img.webp"
+                            />
+                            <button class="btn">Kid's</button>
+                        </div>
+                    </td>
+                </table>
+            </div>
+
+            <!-- Third Section -->
+            <div id="head-three">
+                <p class="regular-text">Don't Miss</p>
+                <div id="head-three-middle">
+                    <img class="main-photo" src="images/nike-last-img.jpeg" />
+                    <h1 class="headfont">Trail Blazers</h1>
+                    <h5 class="head-des">
+                        Nike Terra Tiger 9. Stay agile on rough terrain .
+                    </h5>
+                    <a><button type="button" class="btn">Shop</button></a>
+                </div>
+            </div>
+
+            <!-- Fourth Section -->
+            <div class="head-four">
+                <p class="regular-text">Nike Membership</p>
+                <img class="member-photo" src="images/nike-black-img.png" />
+                <h1 class="cover-head">Become a<br />member</h1>
+                <p class="cover-text">Sign up for free. Join the community.</p>
+                <button type="button" class="btn1" class="button">
+                    Join Us
+                </button>
+                <button type="button" class="btn2" class="button">
+                    Sign In
+                </button>
+            </div>
+
+            <!-- Footer - 1 -->
+            <div id="footer-one">
+                <div>
+                    <h4>Featured</h4>
+                    <a href="#"><p>Air Force 1</p></a>
+                    <a href="#"><p>Jordan 1</p></a>
+                    <a href="#"><p>Air Max 2090</p></a>
+                    <a href="#"><p>Air Max 270</p></a>
+                </div>
+                <div>
+                    <h4>Shoes</h4>
+                    <a href="#"><p>All Shoes</p></a>
+                    <a href="#"><p>Jordan Shoes</p></a>
+                    <a href="#"><p>Running Shoes</p></a>
+                    <a href="#"><p>Basketball Shoes</p></a>
+                </div>
+                <div>
+                    <h4>Clothing</h4>
+                    <a href="#"><p>All Clothing</p></a>
+                    <a href="#"><p>Tops & T-Shirts</p></a>
+                    <a href="#"><p>Shorts</p></a>
+                    <a href="#"><p>Hoodies & Pullovers</p></a>
+                </div>
+                <div>
+                    <h4>Kids'</h4>
+                    <a href="#"><p>Infant & Toddler Shoes</p></a>
+                    <a href="#"><p>Kids' Shoes</p></a>
+                    <a href="#"><p>Kids' Basketball Shoes</p></a>
+                    <a href="#"><p>Kids' Running Shoes</p></a>
+                </div>
+            </div>
+
+            <!-- Footer - 2 -->
+            <div id="footer-two">
+                <div class="box-1">
+                    <div>
+                        <a></a>
+                        <a></a>
+                        <a></a>
+                        <a></a>
+                        <h4>Gift Cards</h4>
+                        <h4>Promotions</h4>
+                        <h4>Find a store</h4>
+                        <h4>Sign up for email</h4>
+                        <h4>Become a member</h4>
+                        <h4>Send us feedback</h4>
+                    </div>
+                    <div>
+                        <h4>Get Help</h4>
+                        <p>Order Status</p>
+                        <p>Shipping & Delivery</p>
+                        <p>Returns</p>
+                        <p>Order Cancellation</p>
+                        <p>Payment Options</p>
+                        <p>Contact Us</p>
+                    </div>
+                    <div>
+                        <h4>About Nike</h4>
+                        <p>News</p>
+                        <p>Careers</p>
+                        <p>Investors</p>
+                        <p>Purpose</p>
+                        <p>Sustainability</p>
+                    </div>
+                </div>
+                <div class="box-2">
+                    <i
+                        class="fa fa-facebook-square"
+                        style="font-size: 20px; color: white"
+                    ></i>
+                    <i
+                        class="fa fa-instagram"
+                        style="font-size: 20px; color: white"
+                    ></i>
+                    <i
+                        class="fa fa-twitter-square"
+                        style="font-size: 20px; color: white"
+                    ></i>
+                    <i
+                        class="fa fa-youtube-play"
+                        style="font-size: 20px; color: white"
+                    ></i>
+                </div>
+            </div>
+
+            <div class="box-3">
+                <div class="container-1">
+                    <p class="location">Sri Lanka</p>
+                    <p class="box-3-text">
+                        © 2023 Nike, Inc. All Rights Reserved
+                    </p>
+                </div>
+                <div class="container-2">
+                    <p class="box-3-text">Guides</p>
+                    <p class="box-3-text">Terms of Sale</p>
+                    <p class="box-3-text">Terms of Use</p>
+                    <p class="box-3-text">Nike Privacy Policy</p>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

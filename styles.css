@@ -1,0 +1,461 @@
+.logo {
+    width: 64px;
+}
+
+.logo-2 {
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btn {
+    font-size: 15px;
+    margin-left: 10px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    width: 100px;
+}
+
+.margin {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#navbar-logo,
+#navbar-links,
+#search-links {
+    width: 33%;
+}
+
+#navbar-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#navbar-links {
+    text-align: center;
+}
+
+#navbar-links a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#search-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#search {
+    height: 30px;
+    width: 80px;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+#navbar-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#navbar-2 h6 {
+    font-size: 12px;
+}
+
+#navbar-2 h4,
+#navbar-2 h6,
+#navbar-2 a {
+    margin: 2px;
+    font-weight: 500;
+    color: black;
+}
+
+#head-one,
+#head-two-middle,
+#head-three-middle {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#head-one h5,
+#head-two-middle h5,
+#head-three-middle h5 {
+    margin-top: 10px;
+    font-size: 20px;
+    margin: 0;
+    font-weight: 500;
+    text-align: center;
+}
+
+#head-one h1,
+#head-two h1,
+#head-three h1 {
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    margin: 0;
+}
+
+#head-one button,
+#head-two button,
+#head-three button {
+    margin: 20px;
+}
+
+#head-three {
+    margin-bottom: 100px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.main-video {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.main-photo {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.regular-text {
+    margin-left: 10px;
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.product-img {
+    width: 100%;
+    display: inline;
+    border-radius: 20px;
+}
+
+table {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.products {
+    margin: 30px;
+    margin-bottom: 100px;
+}
+
+.name-price {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-family: Helvetica, sans-serif;
+}
+
+.name-price h3 {
+    text-align: left;
+}
+
+.category {
+    position: relative;
+    width: 100%;
+}
+
+.category button {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+}
+
+.member-photo {
+    width: 100%;
+}
+
+.head-four {
+    position: relative;
+    width: 100%;
+}
+
+.btn1 {
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 80%;
+    left: 4.5%;
+    font-size: 15px;
+    margin-left: 10px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    width: 100px;
+}
+
+.btn2 {
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 80%;
+    left: 12.5%;
+    font-size: 15px;
+    margin-left: 10px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    width: 100px;
+}
+
+.cover-head {
+    color: white;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 75px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    line-height: 50pt;
+}
+
+.cover-text {
+    color: white;
+    position: absolute;
+    font-family: Arial, sans-serif;
+    font-weight: lighter;
+    top: 62.5%;
+    left: 5%;
+}
+
+#footer-one {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 18pt;
+}
+
+#footer-one p {
+    color: rgb(117, 117, 117);
+}
+
+#footer-two {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+#footer-two h4 {
+    font-family: "Staatliches", cursive;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#footer-two p {
+    font-size: 11px;
+    line-height: 15pt;
+    color: rgb(117, 117, 117);
+}
+
+.box-1 {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-2 img {
+    width: 20px;
+}
+
+.box-3 {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    padding: 0 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    height: 80px;
+}
+
+.box-3 div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-1,
+.container-2 {
+    margin: 0 40px 0 40px;
+    width: 28%;
+}
+
+.box-3-text {
+    color: rgb(117, 117, 117);
+}
+
+.login-box {
+    margin: 60px;
+    text-align: center;
+}
+
+.login-box h4 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 26px;
+}
+
+.input-box {
+    line-height: 50px;
+}
+
+.input-boxes {
+    padding-left: 15px;
+    width: 25%;
+    height: 35px;
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: light;
+}
+
+.sign-link {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(141, 141, 141);
+}
+
+.check {
+    margin-right: 75px;
+    margin-left: 10px;
+}
+
+.sign-box {
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 2px;
+    padding: 0 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    height: 40px;
+    width: 26%;
+    margin-bottom: 10px;
+}
+
+.tos {
+    color: rgb(141, 141, 141);
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.tos a {
+    color: rgb(141, 141, 141);
+}
+
+.privacy-content {
+    margin-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(102, 102, 102);
+    line-height: 30px;
+}
+
+.privacy-content p {
+    font-weight: lighter;
+}
+
+.middle {
+    text-align: center;
+}
+
+.sign-text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 15px;
+}
+
+#boxContainer {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+#box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 350px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+
+#closeBoxBtn {
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 10px;
+    height: 40px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.btn-2 {
+    font-size: 15px;
+    margin-left: 10px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.error {
+    color: red;
+    font-style: italic;
+}
+
+#footer-one a,
+#footer-two a {
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: gray;
+}
