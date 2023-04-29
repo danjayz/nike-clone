@@ -7,6 +7,11 @@ const loginBtn = document.querySelector(".btn");
 // Select all anchor elements in the page
 const links = content.querySelectorAll("a:not(.btn)");
 
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    // Show error message
+    document.getElementById("error-message").style.display = "block";
+}
+
 links.forEach((link) => {
     link.addEventListener("click", function (event) {
         event.preventDefault();
